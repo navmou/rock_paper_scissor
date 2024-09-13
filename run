@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#SBATCH -A C3SE2022-1-1 -p vera
+#SBATCH -n 2
+#SBATCH -t 2-00:00:00
+
+ml Anaconda3/2019.10
+
+python3 main.py
+
+
